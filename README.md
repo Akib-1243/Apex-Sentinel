@@ -332,7 +332,7 @@ Toll, fine and speed limit can also be changed live from the dashboard (they res
 
 - **Speed trap:** place the sonar so the vehicle passes about 5 to 8 cm in front of it, measure your vehicle's real length, and set `VEHICLE_LEN_M` to it. Tune `SPEED_LIMIT_KMH` to match your test rig.
 - **Register a card:** scan an unknown card first, since its UID appears under *Unregistered Scans*, then click **Register UID**.
-- **Accident test:** do not crash the hardware 🙂. Shake or tap the board firmly to cross the impact threshold, or hold it tilted past 60° for 2 s to test the flip alert. Lower `IMPACT_THRESHOLD` if your bench shake doesn't reach it.
+- **Accident test:** do not crash the hardware . Shake or tap the board firmly to cross the impact threshold, or hold it tilted past 60° for 2 s to test the flip alert. Lower `IMPACT_THRESHOLD` if your bench shake doesn't reach it.
 - **GPS:** test outdoors or by a window. Indoors there is usually no fix, so the SMS will say "satellites acquiring".
 - **GSM:** the SIM800L needs a stable supply. If it resets or does not respond, check the power source and common ground first.
 
@@ -350,5 +350,5 @@ Toll, fine and speed limit can also be changed live from the dashboard (they res
 ---
 
 
-## 🙏 Acknowledgements
-CSE 3118 course teachers and lab staff, AUST.
+## Acknowledgements
+CSE 3118 course teachers and my teammates Masqur Morshed and Anika Ashraf
